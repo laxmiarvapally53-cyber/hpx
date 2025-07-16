@@ -9,6 +9,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 set(execution_headers
     hpx/execution/algorithms/as_sender.hpp
     hpx/execution/algorithms/bulk.hpp
+    hpx/execution/algorithms/bulk_chunked.hpp
     hpx/execution/algorithms/detail/is_negative.hpp
     hpx/execution/algorithms/detail/inject_scheduler.hpp
     hpx/execution/algorithms/detail/partial_algorithm.hpp
